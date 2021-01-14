@@ -2,7 +2,7 @@
 # Maintainer Manjaro : Simon Büeler <simon.bueeler at icloud dot com>
 
 pkgname=flashfocus
-pkgrel=1
+pkgrel=2
 pkgver=2.2.2
 pkgdesc="Simple Xorg window focus animations for tiling window managers"
 url="https://www.github.com/fennerm/flashfocus"
