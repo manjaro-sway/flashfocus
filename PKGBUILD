@@ -11,7 +11,8 @@ depends=('python-xcffib'
          'python-xpybutil'
          'python-marshmallow'
          'python-yaml'
-         'python-i3ipc')
+         'python-i3ipc'
+         'python-pip')
 makedepends=('python-setuptools')
 conflicts=('flashfocus')
 provides=('flashfocus')
