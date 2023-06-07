@@ -3,7 +3,7 @@
 
 pkgname=flashfocus
 pkgver=2.3.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple Xorg window focus animations for tiling window managers"
 url="https://www.github.com/fennerm/flashfocus"
 license=('MIT')
