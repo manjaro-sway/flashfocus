@@ -14,7 +14,7 @@ depends=(
 	'python-i3ipc'
 	'python-marshmallow'
 	'python-xcffib'
-	'python-xpybutil'
+#	'python-xpybutil'
 	'python-yaml')
 makedepends=(
 	'python-build'
