@@ -4,7 +4,7 @@
 
 pkgname=flashfocus
 pkgver=2.4.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple focus animations for tiling window managers"
 url="https://www.github.com/fennerm/flashfocus"
 license=('MIT')
@@ -16,7 +16,7 @@ depends=(
 	'python-i3ipc'
 	'python-marshmallow'
 	'python-xcffib'
-	'python-xpybutil'
+#	'python-xpybutil'
 	'python-yaml')
 optdepends=(
 	'i3-wm: compatible window manager'
