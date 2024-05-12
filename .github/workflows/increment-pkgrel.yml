@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
     
 jobs:
-  rebase:
+  increment-pkgrel:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -37,4 +37,4 @@ jobs:
         with:
             token: ${{ secrets.DISPATCH_TOKEN || github.token }}
             repository: ${{ github.repository }}
-            event-type: pkgrel-increment
+            event-type: pkgrel-incremented
