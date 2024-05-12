@@ -4,7 +4,7 @@
 
 pkgname=flashfocus
 pkgver=2.4.1
-pkgrel=6
+pkgrel=7
 pkgdesc="Simple focus animations for tiling window managers"
 url="https://www.github.com/fennerm/flashfocus"
 license=('MIT')
