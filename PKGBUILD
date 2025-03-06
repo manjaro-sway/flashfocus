@@ -29,7 +29,7 @@ changelog=CHANGELOG.md
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('28ff948aef8d49dfefd532032bdda88e49dbcbba224f63719f6106163b3ebc20')
 
-makedepends=(python-build python-installer python-wheel)
+makedepends=(python-build python-installer python-wheel python-setuptools)
 
 build() {
     cd "$pkgname-$pkgver"
