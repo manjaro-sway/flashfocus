@@ -10,8 +10,8 @@ url="https://www.github.com/fennerm/flashfocus"
 license=('MIT')
 arch=('any')
 depends=(
-    'bash'
-    'python'
+	'bash'
+	'python'
 	'python-click'
 	'python-i3ipc'
 	'python-marshmallow'
@@ -37,8 +37,8 @@ build() {
 }
 
 package() {
-    cd "$pkgname-$pkgver"
-    python -m installer --destdir="$pkgdir" dist/*.whl
+	cd "$pkgname-$pkgver"
+	python -m installer --destdir="$pkgdir" dist/*.whl
 	install -Dvm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname/"
 	install -Dvm644 README.md -t "$pkgdir/usr/share/doc/$pkgname/"
 	install -Dvm644 flashfocus.service -t "$pkgdir/usr/lib/systemd/user/"
