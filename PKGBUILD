@@ -1,4 +1,5 @@
-# Maintainer: Bart Libert <bart plus aur at libert dot email>
+# Maintainer: Zaraksh Rahman <zarakshr at gmail dot com>
+# Previous Maintainer: Bart Libert <bart plus aur at libert dot email>
 # Contributor: Luis Martinez <luis dot martinez at disroot dot org>
 # Contributor: Fenner Macrae <fmacrae.dev at gmail dot com>
 
