@@ -1,0 +1,4 @@
+_extends: manjaro-contrib/.github
+repository:
+  homepage: https://aur.archlinux.org/flashfocus.git
+  topics: arch, package, any, python
