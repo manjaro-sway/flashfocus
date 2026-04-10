@@ -4,7 +4,7 @@
 # Contributor: Fenner Macrae <fmacrae.dev at gmail dot com>
 
 pkgname=flashfocus
-pkgver=2.4.1
+pkgver=2.9.0
 pkgrel=1
 pkgdesc="Simple focus animations for tiling window managers"
 url="https://www.github.com/fennerm/flashfocus"
@@ -16,6 +16,7 @@ depends=(
     'python-click'
     'python-i3ipc'
     'python-marshmallow'
+    'python-cffi'
     'python-xcffib'
     'python-xpybutil'
     'python-yaml')
@@ -27,8 +28,8 @@ optdepends=(
     	'xmonad: compatible window manager'
     	'picom: recommended compositor if using X-based window managers')
 changelog=CHANGELOG.md
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('28ff948aef8d49dfefd532032bdda88e49dbcbba224f63719f6106163b3ebc20')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('01c22e192f93808361c493b4a0bf2ae4d1077cd4411e8d80dec76085cb1e7476')
 
 makedepends=(python-build python-installer python-wheel python-setuptools)
 
